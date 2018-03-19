@@ -1,0 +1,224 @@
+#container {
+    background: #a8ed82;
+}
+
+#wrapper img {
+    width: 100%;
+}
+
+#cont1 {
+    float: left;
+    width: 70%;
+
+    margin-left: 3%;
+    background: #E7F3E5;
+    padding-bottom: 120%;
+    margin-top: -100px;
+    padding-top: 100px;
+}
+
+#sidebar {
+    
+    float: right;
+    width: 20%;
+    margin-right: 3%;
+    background: #cfe5f0;
+    height: 100%;
+    padding-bottom: 100%;
+    margin-top: -100px;
+    padding-top: 100px;
+    
+
+}
+
+#sidebar img {
+    width: 70%;
+     margin-top: -14px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+#sidebar ul {
+    
+    list-style: none;
+    padding: 10px;
+}
+
+#sidebar li {
+
+    padding-top: 10px;
+    border-bottom: 1px solid  grey;
+    border-radius: 5px;
+
+}
+#sidebar li:hover {
+    
+    background: #dfe5f0;
+}
+#sidebar a{
+    
+   text-decoration: none;
+       color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+#sidebar .login{
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:2%; /*делаем отступ сверху*/
+  background:#86aaed; /*добавляем фон всему меню (заменив этот параметр, вы поменяете цвет всего меню)*/
+  height: 3vw; /*задаем высоту*/
+ text-align: center;
+    display: block;
+   
+    
+}
+#sidebar .login a{
+        font-size: 1.3vw;
+    text-align: center;
+    line-height: 3vw;
+    color: white;
+}  
+  
+}
+.login a:hover {
+  background:#496bae;/*добавляем эффект при наведении*/
+}
+
+#header a {
+    text-decoration: none;
+
+}
+
+.log {
+    font-family: 'Times New Roman';
+    color: #496bae;
+    font-weight: 700;
+    font-size: 2.5vw;
+    padding-left: 10%;
+    
+
+
+}
+
+.contact{
+   
+    padding-bottom: 10px;
+    
+  
+    }
+.contact li{
+    float: right;  
+    list-style: none;
+    padding-left: 5px;
+}
+
+.contact a {
+    text-decoration: none;
+    font-family: 'Times New Roman';
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+
+
+
+.infalog {
+    font-family: 'Times New Roman';
+    color: #515151;
+    font-weight: 400;
+    font-size: 1vw;
+    padding-left: 10%;
+}
+
+#nav ul {
+  list-style: none; /*убираем маркеры списка*/
+  margin: 0; /*убираем отступы*/
+  padding-left: 0; /*убираем отступы*/
+  margin-top:1%; /*делаем отступ сверху*/
+  background:#86aaed; /*добавляем фон всему меню (заменив этот параметр, вы поменяете цвет всего меню)*/
+  height: 3vw; /*задаем высоту*/
+}
+#nav a {
+  text-decoration: none; /*убираем подчеркивание текста ссылок*/
+  background:#86aaed; /*добавляем фон к пункту меню (заменив этот параметр, вы поменяете цвет всех пунктов меню)*/
+  color:#fff; /*меняем цвет ссылок*/
+  padding:0 1.2vw;  /*добавляем отступ*/
+
+  line-height:3vw; /*ровняем меню по вертикали*/
+  display:block;
+
+font-size: 1.3vw;
+}
+#nav li:nth-child(n+2){
+      border-left: 2px solid  #cfe5f0; /*добавляем бордюр слева*/
+}
+
+
+#nav a:hover {
+  background:#496bae;/*добавляем эффект при наведении*/
+}
+#nav li {
+  float:left; /*Размещаем список горизонтально для реализации меню*/
+}
+
+.news {
+    padding: 20px;
+    background: #E7F3E5;
+    position: relative;
+
+}
+
+
+.news:before {
+    content: "";
+    position: absolute;
+    border-top: 6px solid #A2822F;
+    border-left: 6px solid #A2822F;
+    width: 30px;
+    height: 30px;
+    top: 24px;
+    left: 24px;
+    z-index: 3;
+}
+
+.news p {
+    min-width: 300px;
+    text-align: center;
+    border: 4px solid #A2822F;
+    position: relative;
+    padding: 50px 50px;
+    margin: 0;
+    font-family: 'Cormorant SC', serif;
+}
+
+.news p:before {
+    content: "";
+    position: absolute;
+    width: 64px;
+    height: 46px;
+    border-bottom: 4px solid #A2822F;
+    left: -4px;
+    top: -4px;
+    background: #E7F3E5;
+}
+
+.news p:after {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 60px;
+    border-top: 4px solid #A2822F;
+    border-left: 4px solid #A2822F;
+    left: 42px;
+    top: -4px;
+}
+
+#container #footer img {
+    width: 100%;
+    margin-top: -200px;
+
+}
